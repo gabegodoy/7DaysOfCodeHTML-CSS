@@ -1,0 +1,36 @@
+.metrics__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 7rem 6rem 7rem;
+  box-sizing: border-box;
+}
+
+.metrics__info{
+  font-family: var(--inter);
+  text-align: left;
+  max-width: 20%;
+}
+
+.metrics__title{
+  color: var(--umber);
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+}
+
+.metrics__subtitle{
+  color: var(--darkGray);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.metrics__text{
+  color: var(--gray);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
