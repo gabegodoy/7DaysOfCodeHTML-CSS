@@ -1,0 +1,42 @@
+.jobs__header{
+  box-sizing: border-box;
+  padding: 6.25rem 7rem;
+  text-align: center;
+}
+
+.jobs__header span{
+  color: var(--umber);
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+
+  background-color: var(--umberTransparent);
+
+  line-height: 1.25rem;
+  
+  font-size: 0.875rem;
+  font-family: var(--inter);
+  font-weight: 500;
+
+}
+
+.jobs__title{
+  color: var(--black);
+  font-size: 2.25rem;
+  font-family: var(--inter);
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.jobs__subtitle{
+  color: var(--gray);
+  font-size: 1.25rem;
+  font-family: var(--inter);
+  font-weight: 400;
+}
+
+.jobs__image{
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+  width: 100%;
+}
